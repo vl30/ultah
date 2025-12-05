@@ -9,40 +9,48 @@ interface PhotoItem {
   type: "memory" | "photo pribadi";
 }
 
+// Import gambar secara eksplisit
+import vincilImg from "/assets/memory/vincil.jpg";
+import vindeImg from "/assets/memory/vinde.jpg";
+import awalImg from "/assets/memory/awal.jpg";
+import photobotImg from "/assets/memory/photobot.jpg";
+import hororImg from "/assets/memory/horor.jpg";
+import muncakImg from "/assets/memory/muncak.jpg";
+
 const photos: PhotoItem[] = [
   {
     id: 1,
-    image: "/src/assets/memory/vincil.jpg",
+    image: vincilImg,
     caption: "biadadari pas kecil lucu banget",
     type: "photo pribadi",
   },
   {
     id: 2,
-    image: "/src/assets/memory/vinde.jpg",
+    image: vindeImg,
     caption: "eh udah gede aja ya..",
     type: "photo pribadi",
   },
   {
     id: 3,
-    image: "/src/assets/memory/awal.jpg",
+    image: awalImg,
     caption: "photo kita pas awal ketemu di map salon hehe",
     type: "memory",
   },
   {
     id: 4,
-    image: "/src/assets/memory/photobot.jpg",
+    image: photobotImg,
     caption: "photo kita di photobooth di roblokk",
     type: "memory",
   },
   {
     id: 5,
-    image: "/src/assets/memory/horor.jpg",
+    image: hororImg,
     caption: "photo kamu pas maen horor roblok sama akuu",
     type: "memory",
   },
   {
     id: 6,
-    image: "/src/assets/memory/muncak.jpg",
+    image: muncakImg,
     caption: "photo kita pas muncakkkkk di roblokk",
     type: "memory",
   },
